@@ -1,0 +1,21 @@
+{
+    "name": "ptms/ptms-mvc",
+    "description": "mvc",
+    "type": "project",
+    "authors": [
+        {
+            "name": "N"
+        }
+    ],
+    "require": {
+        "php" : ">=7"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "9.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "PTMS\\MVC\\": "app"
+        }
+    }
+}
